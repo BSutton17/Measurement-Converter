@@ -12,11 +12,11 @@
     width:375px;
     height: 100%;
     position: relative;
-    left: 10%;
+    left: 5%;
   }
   #place{
     position: relative;
-    top: 150px;
+    top: 350px;
     left: 63.5%;
     z-index: 0;
     max-width: fit-content
@@ -24,4 +24,9 @@
   select{
     width: 80%;
   }
+  footer{
+  position: relative;
+  bottom: 0;
+  left: 15px;
+}
 }
