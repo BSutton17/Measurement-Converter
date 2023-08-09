@@ -9,7 +9,18 @@
 
 @media (max-width: 450px){
   #wrapper {
-    width:375px;
+    width: 187.5px;
     height: 100%;
+  }
+  #place{
+    font-size: 10px;
+    position: relative;
+    top: 11%;
+    left: 63.5%;
+    z-index: 0;
+    max-width: fit-content
+  }
+  select{
+    width: 60%;
   }
 }
