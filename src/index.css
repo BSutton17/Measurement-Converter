@@ -13,7 +13,7 @@
       width:375px;
       height: 100%;
       position: relative;
-      left: 1%;
+      left: 2%;
     }
     #place{
       position: relative;
@@ -31,12 +31,12 @@
     left: 25px;
     }
     h1{
-      top: 20%:
+      margin-top: 10px;
     }
     h2{
-      top: 45%
+      margin-top: 10px;
     }
     #container{
-    top: 30%
+      margin-top: 10px;
   }
 }
