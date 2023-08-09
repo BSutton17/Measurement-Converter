@@ -6,3 +6,10 @@
   color: #868492;
   background-color: 	#31363e;
 }
+
+@media (max-width: 450px){
+  #wrapper {
+    width: 187.5px;
+    height: 100%;
+  }
+}
