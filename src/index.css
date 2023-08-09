@@ -9,13 +9,13 @@
 
 @media (max-width: 450px){
   #wrapper {
-    width: 187.5px;
+    width:275px;
     height: 100%;
   }
   #place{
     font-size: 10px;
     position: relative;
-    top: 11%;
+    top: 50%;
     left: 63.5%;
     z-index: 0;
     max-width: fit-content
