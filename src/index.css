@@ -17,7 +17,7 @@
       left: 0%;
     }
     #place{
-      position: fixed;
+      position: relative;
       top: 40%;
       left: 59%;
       z-index: 0;
