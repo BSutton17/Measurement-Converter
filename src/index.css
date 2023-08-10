@@ -18,7 +18,8 @@
       margin-bottom: 50px;
     }
   #title{
-    margin-top: 25px;
+   position: relative;
+    bottom: -25px;
   }
   h1{
     height: 100px;
@@ -35,7 +36,7 @@
     }
     footer{
     position: relative;
-    margin-bottom: 25px;
+    top: -25px;
     left: 20px;
     }
 }
