@@ -11,7 +11,7 @@
 @media (max-width: 450px){
     #wrapper {
       width:375px;
-      max-height: 275px;
+      max-height: 250px;
       height: 100%;
       position: relative;
       left: 1%;
