@@ -11,9 +11,9 @@ body {
 }
 
 #place{
-  position: relative;
-  top: -11%;
-  left: 63.5%;
+  position: fixed;
+  top: 46%;
+  left: 61.5%;
   z-index: 0;
   max-width: fit-content
 }
@@ -58,7 +58,6 @@ h2{
 
 #title{
   color: #9dd0cc; 
-  font-size: 32px;
 }
 
 input {
