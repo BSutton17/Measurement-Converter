@@ -11,9 +11,10 @@
 @media (max-width: 450px){
     #wrapper {
       width:375px;
+      max-height: 200px;
       height: 100%;
       position: relative;
-      left: 0%;
+      left: 1%;
     }
     #place{
       position: relative;
