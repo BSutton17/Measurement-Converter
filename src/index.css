@@ -16,13 +16,10 @@
       position: relative;
       left: 1%;
     }
-  h1{
-    top: 75%
-  }
     #place{
-      position: relative;
-      top: -110px;
-      left: 58%;
+      position: fixed;
+      top: 46%;
+      left: 61.5%;
       z-index: 0;
       max-width: fit-content;
     }
