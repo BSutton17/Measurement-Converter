@@ -20,8 +20,6 @@ body {
 #wrapper {
   width: 450px;
   height: 350px;
-  position: relative;
-  top: 20%;
   border: 3px solid #868492; 
   background-color: #5a9786; 
   border-radius: 8px;
