@@ -16,8 +16,8 @@
       position: relative;
       left: 1%;
     }
-  h1, h2{
-    border: 2px solid red;
+  h1{
+    top: 45%
   }
     #place{
       position: relative;
