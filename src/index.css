@@ -16,6 +16,9 @@
       position: relative;
       left: 0%;
     }
+  h1{
+    height: 40%;
+  }
     #place{
       position: relative;
       top: -110px;
