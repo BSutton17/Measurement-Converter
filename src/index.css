@@ -18,8 +18,8 @@
     }
     #place{
       position: relative;
-      top: 40%;
-      left: 59%;
+      top: 50%;
+      left: 58.5%;
       z-index: 0;
       max-width: fit-content;
     }
