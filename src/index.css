@@ -25,7 +25,6 @@
       left: 58%;
       z-index: 0;
       max-width: fit-content;
-      border: 2px solid red;
     }
     select{
       width: 80%;
