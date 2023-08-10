@@ -18,7 +18,7 @@
     }
     #place{
       position: relative;
-      top: 275px;
+      top: 200px;
       left: 100px; /*160 --> 100*/
       z-index: 0;
       max-width: fit-content;
