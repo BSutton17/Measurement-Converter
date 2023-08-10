@@ -16,12 +16,16 @@
       position: relative;
       left: 1%;
     }
+  h1, h2{
+    border: 2px solid red;
+  }
     #place{
       position: relative;
       top: -110px;
       left: 58%;
       z-index: 0;
-      max-width: fit-content
+      max-width: fit-content;
+      border: 2px solid red;
     }
     select{
       width: 80%;
