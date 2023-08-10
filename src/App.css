@@ -11,9 +11,9 @@ body {
 }
 
 #place{
-  position: fixed;
-  top: 46%;
-  left: 61.5%;
+  position: relative;
+  top: -25.5%;
+  left: 63.5%;
   z-index: 0;
   max-width: fit-content
 }
@@ -45,6 +45,7 @@ h1{
   font-size: 24px;
   text-align: center;
   position: relative;
+  height: 25%;
   top: 35%;
 }
 
