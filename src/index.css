@@ -17,8 +17,7 @@
       left: 0%;
     }
   h1{
-    height: 70%;
-    border: 2px solid red;
+    height: 100px;
   }
     #place{
       position: relative;
