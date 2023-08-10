@@ -18,8 +18,8 @@
     }
     #place{
       position: fixed;
-      top: 46%;
-      left: 61.5%;
+      top: 40%;
+      left: 59%;
       z-index: 0;
       max-width: fit-content;
     }
