@@ -17,7 +17,8 @@
       left: 0%;
     }
   #title{
-    bottom-margin: -75px;
+    position: relative;
+    bottom: 35%;
   }
   h1{
     height: 100px;
