@@ -38,6 +38,9 @@ function App() {
       case 'kilometers':
         baseValue = inputValue * 3280.84;
         break;
+      case 'inches':
+        baseValue = inputValue / 12;
+        break;
       default:
         baseValue = inputValue;
     }
@@ -63,6 +66,9 @@ function App() {
       case 'kilometers':
         result = baseValue / 3280.84;
         break;
+      case 'inches':
+        result = baseValue * 12;
+        break;
       default:
         result = baseValue;
     }
@@ -84,6 +90,7 @@ function App() {
               <option value="centimeters">Centimeters</option>
               <option value="miles">Miles</option>
               <option value="kilometers">Kilometers</option>
+              <option value="inches">Inches</option>
             </select>
           </div>
           <div id="select">
@@ -94,6 +101,7 @@ function App() {
               <option value="centimeters">Centimeters</option>
               <option value="miles">Miles</option>
               <option value="kilometers">Kilometers</option>
+              <option value="inches">Inches</option>
             </select>
           </div>
         </div>
