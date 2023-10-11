@@ -72,6 +72,7 @@ function App() {
       default:
         result = baseValue;
     }
+    // round the decimal to 3 places
     setValue(Number(result.toFixed(3)));
   };
 
@@ -84,24 +85,25 @@ function App() {
           <input id="value" type="number" required onChange={converter} />
           <div id="select" >
             <select id="measurement" value={measurement} onChange={(e) => setMeasurement(e.target.value)}>
+              <option value="centimeters">Centimeters</option>
+              <option value="inches">Inches</option>
               <option value="feet">Feet</option>
               <option value="meters">Meters</option>
               <option value="yards">Yards</option>
-              <option value="centimeters">Centimeters</option>
               <option value="miles">Miles</option>
               <option value="kilometers">Kilometers</option>
-              <option value="inches">Inches</option>
+              
             </select>
           </div>
           <div id="select">
             <select id="converted" value={converted} onChange={(e) => setConverted(e.target.value)}>
+            <option value="centimeters">Centimeters</option>
+              <option value="inches">Inches</option>
               <option value="feet">Feet</option>
               <option value="meters">Meters</option>
               <option value="yards">Yards</option>
-              <option value="centimeters">Centimeters</option>
               <option value="miles">Miles</option>
               <option value="kilometers">Kilometers</option>
-              <option value="inches">Inches</option>
             </select>
           </div>
         </div>
