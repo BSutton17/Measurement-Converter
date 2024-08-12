@@ -11,11 +11,9 @@ body {
 }
 
 #place{
-  position: relative;
-  top: -25.5%;
-  left: 63.5%;
-  z-index: 0;
-  max-width: fit-content
+  max-width: fit-content;
+  display: flex;
+  align-items: center;
 }
 #wrapper {
   width: 450px;
@@ -44,7 +42,7 @@ h1{
   text-align: center;
   position: relative;
   height: 25%;
-  top: 35%;
+  top: 25%;
 }
 
 h2{
@@ -75,10 +73,10 @@ input {
   top: 20%;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 footer{
   position: relative;
-  bottom: 0;
   left: 5px;
 }
