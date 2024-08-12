@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import './App.css';
 
 function App() {
@@ -6,9 +6,15 @@ function App() {
   const [originalValue, setOriginalValue] = useState(0);
   const [measurement, setMeasurement] = useState('feet');
   const [converted, setConverted] = useState('meters');
+  const [inital, setInital] = useState("")
   
-  const converter = (e: { target: { value: string; }; }) => {
-    const inputValue = parseFloat(e.target.value);
+  useEffect(()=>{
+    converter(inital)
+  }, [measurement, converted, inital])
+
+  
+  const converter = (str: string) => {
+    const inputValue = parseFloat(str);
     
     if (isNaN(inputValue)) {
       // Handle invalid input (non-numeric)
@@ -72,7 +78,6 @@ function App() {
       default:
         result = baseValue;
     }
-    // round the decimal to 3 places
     setValue(Number(result.toFixed(3)));
   };
 
@@ -82,9 +87,15 @@ function App() {
       <div id="wrapper">
         <h2>Convert {measurement} to {converted}</h2>
         <div id="container">
-          <input id="value" type="number" required onChange={converter} />
+          <input id="value" type="number" required onChange={(e) =>{
+              setInital(e.target.value)
+              converter(inital)
+          }} />
           <div id="select" >
-            <select id="measurement" value={measurement} onChange={(e) => setMeasurement(e.target.value)}>
+            <select id="measurement" value={measurement} onChange={(e) => {
+              setMeasurement(e.target.value)
+              
+            }}>
               <option value="centimeters">Centimeters</option>
               <option value="inches">Inches</option>
               <option value="feet">Feet</option>
@@ -95,6 +106,7 @@ function App() {
               
             </select>
           </div>
+          <h2 className="measurementInput"> to </h2>
           <div id="select">
             <select id="converted" value={converted} onChange={(e) => setConverted(e.target.value)}>
             <option value="centimeters">Centimeters</option>
@@ -108,7 +120,7 @@ function App() {
           </div>
         </div>
         <h1>{originalValue} {measurement} is {value} {converted}</h1> 
-        <h2 id="place">to</h2>
+       
       </div>
      
       <footer>Created by Bryson Sutton</footer>
